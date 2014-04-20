@@ -1,0 +1,73 @@
+#layer-1{
+overflow: auto;
+    background: url(images/fonusers.jpg) no-repeat;
+    background-size: 100%;
+}
+#users-1,#users-2{
+  width: 80%;
+  height: auto;
+  margin: 20px auto;
+  border-collapse: separate;
+  border-spacing: 2px;
+  margin-top:20px;
+  margin-bottom:20px;
+  text-align:center;
+  border-radius: 5px;
+    position: absolute;
+    left: 10%;
+
+}
+#users-1 th,#users-2 th{
+	border: 3px solid #000FFF;
+	background:#8A87DC;
+	width: 33%;
+	height:50px;
+	color:black;
+	font-size:18px;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	border-radius: 5px;
+	box-shadow: inset 1px 1px 5px #2520CA;
+}
+#users-1 td,#users-2 td{
+background-color:#08698A;
+ height:50px;
+ width:33%;
+ color:#83D8F4;
+ font: 0.8em Georgia,Times,serif;
+ border: 2px solid #000FFF;
+ border-radius: 5px;
+ box-shadow: inset 1px 1px 5px #000000;
+ 
+}
+#layer-3{
+position:absolute;
+width: 800px;
+height: 40px;
+left: 20%;
+}
+
+#button-2, #button-3{
+height:55px;
+width:150px;
+border: medium none;
+background-size: 100%;
+position: fixed;
+font-family:Impact, fantasy;
+font-size:16px;
+letter-spacing: 2px;
+color:#E5F1FC;
+}
+#button-2{
+    background: url(images/11.png) no-repeat;
+left:15px;
+}
+#button-3{
+    background: url(images/12.png) no-repeat;
+right:15px;
+}
+#delete{
+    position: absolute;
+    left:3%;
+    color: rgba(255, 0, 0, 1);
+    font-size: 16px;
+}

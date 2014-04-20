@@ -1,0 +1,80 @@
+#layer-2{
+	width: 250px;
+	margin: 7% 43%;
+    position: absolute; /* For the submit button positioning */
+    background: url(images/no.png);
+	padding: 10px;
+    overflow:auto;
+    transform: rotate(-7deg);
+}
+.form-1 .field {
+position: relative;
+}
+.form-1 input[type=text],
+.form-1 input[type=password] {
+    margin-left:10px;
+    width: 90%;
+	padding: 10px 10px 10px 15px;
+	transition: color 1s ease-out 0.5s;
+	/*text*/
+	font-size: 16px;
+	text-shadow: 1px 1px 0px #000000;
+    font-weight:900;
+
+	color: #000000;
+	/*style*/
+	 border: none;
+	box-shadow: inset -1px 0px 5px #000000;
+
+	//border-radius: 3px;
+    background: #DC9663;
+}
+
+.form-1 .submit{
+	/*size*/
+	width: 60px;
+	height:60px;
+	position: absolute;
+	top: 19px;
+	right: 6px;
+	padding: 8px;
+	
+	z-index: 2;
+	 /* Styles */
+    background: #AC6840;
+    border-radius: 50%;
+
+}
+.form-1 input[type=submit]{
+    width: 80%;
+	height: 80%;
+    margin-left: 6px;
+    margin-top: 6px;
+	border: medium none;
+	border-radius:20%;
+	background-repeat: no-repeat;   
+    background-position: center;   
+    background-color: #DC9663;
+    font-size:16px;
+    font-weight:900;
+}
+
+
+
+.submit:hover{
+background-color:#000000;
+
+}
+.submit:focus{
+background-color:#002565;
+}
+#restore-1{
+   position:absolute;
+   top:125px;
+   left:220px;
+   font-family: tahoma,arial,verdana,sans-serif,Lucida Sans;
+   font-size: 11px;
+   line-height: 1.182;
+   font-weight: normal;
+}
+

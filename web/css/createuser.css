@@ -1,0 +1,95 @@
+#layer-2{
+width:600px;
+height:400px;
+background: #143FDC;
+position:relative;
+left:20%;
+}
+#create{
+
+}
+#input-1,#input-2,#input-3,#input-4,#input-5{
+padding:5px;
+background: #D7EBFC;
+border: none;
+box-shadow: inset -1px 0px 5px #586877;
+position:absolute;
+}
+#text-1,#text-2,#text-3,#text-4,#text-5{
+position:absolute;
+font-size:16px;
+font-family: Impact, fantasy;
+color:#E5F1FC;
+}
+#input-1{
+ top:10%;
+ left: 35%;
+}
+#input-2{
+top:30%;
+left: 35%;
+}
+#input-3{
+top:50%;
+left: 35%;
+}
+#input-4{
+top:70%;
+left: 35%;
+}
+#input-5{
+ top: 85%;
+ left:35%;
+}
+#text-1{
+top:7%;
+left: 15%;
+}
+#text-2{
+top:27%;
+left: 15%;
+}
+#text-3{
+top:47%;
+left: 15%;
+}
+#text-4{
+top:67%;
+left: 15%;
+}
+#text-5{
+top:82%;
+left: 15%;
+}
+#layer-4{
+position:fixed;
+top: 10px;
+left: 90%;
+}
+
+#layer-5{
+    position:fixed;
+    width: 500px;
+    height: 40px;
+}
+
+#button-2, #button-3{
+height:55px;
+width:155px;
+border: medium none;
+background:#143FDC;
+position: relative;
+font-family:Impact, fantasy;
+font-size:16px;
+letter-spacing: 2px;
+color:#E5F1FC;
+}
+#button-2{
+    background: url(images/11.png) no-repeat;
+left:15px;
+}
+#button-3{
+    background: url(images/12.png) no-repeat;
+right:15px;
+}
+
